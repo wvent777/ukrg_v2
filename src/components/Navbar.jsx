@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
+import { UKLogo } from "../assets/logos/UkLogo";
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
@@ -22,10 +21,10 @@ export const Navbar = () => {
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+                <UKLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                Ukpasia
               </div>
             </div>
           </a>
@@ -36,20 +35,54 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="hidden lg:flex h-full pl-12 pb-2">
-            <a className="navbar-link" href="#home" aria-label="Home">
-              Home
+          <div className="hidden lg:flex h-full pl-12 pb-2 ">
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#buy"
+              aria-label="Buy"
+            >
+              Buy
             </a>
-            <a className="navbar-link" href="#features" aria-label="Features">
-              Features
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#rent"
+              aria-label="Rent"
+            >
+              Rent
             </a>
-            <a className="navbar-link" href="#pricing" aria-label="Pricing">
-              Pricing
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#sell"
+              aria-label="Sell"
+            >
+              Sell
             </a>
-            <a className="navbar-link" href="#feedback" aria-label="Feedback">
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#about"
+              aria-label="About"
+            >
+              About Us
+            </a>
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#agents"
+              aria-label="Agents"
+            >
+              Agents
+            </a>
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#feedback"
+              aria-label="Feedback"
+            >
               Feedback
             </a>
-            <a className="navbar-link" href="#FAQ" aria-label="FAQ">
+            <a
+              className="navbar-link hover:text-customPrimary"
+              href="#FAQ"
+              aria-label="FAQ"
+            >
               FAQ
             </a>
           </div>
@@ -63,13 +96,12 @@ export const Navbar = () => {
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
               className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+           bg-customDarkBg2 hover:bg-customSecondary  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+              href="https://ukpasia.realtymx.com/admin"
               target="_blank"
-              aria-label="source code"
+              aria-label="Agent Login"
             >
-              <GithubIcon />
-              Source code
+              Agent Portal
             </a>
           </div>
         </motion.div>
@@ -96,39 +128,39 @@ export const Navbar = () => {
         "
             >
               <a
-                className="navbar-link"
-                href="#home"
+                className="navbar-link hover:text-customSecondary"
+                href="#buy"
                 onClick={() => setIsOpen(false)}
-                aria-label="Home"
+                aria-label="Buy"
               >
-                Home
+                Buy
               </a>
               <a
-                className="navbar-link"
-                href="#features"
+                className="navbar-link hover:text-customSecondary"
+                href="#rent"
                 onClick={() => setIsOpen(false)}
-                aria-label="sFeatures"
+                aria-label="Rent"
               >
-                Features
+                Rent
               </a>
               <a
-                className="navbar-link"
-                href="#pricing"
+                className="navbar-link hover:text-customSecondary"
+                href="#sell"
                 onClick={() => setIsOpen(false)}
-                aria-label="Pricing"
+                aria-label="Sell"
               >
-                Pricing
+                Sell
               </a>
               <a
-                className="navbar-link"
-                href="#feedback"
+                className="navbar-link hover:text-customSecondary"
+                href="#about"
                 onClick={() => setIsOpen(false)}
-                aria-label="Feedback"
+                aria-label="About"
               >
-                Feedback
+                About
               </a>
               <a
-                className="navbar-link"
+                className="navbar-link hover:text-customSecondary"
                 href="#FAQ"
                 onClick={() => setIsOpen(false)}
                 aria-label="FAQ"
@@ -138,11 +170,10 @@ export const Navbar = () => {
               <a
                 className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://github.com/matt765/Tidestream"
+                href="#"
                 target="_blank"
               >
-                <GithubIcon />
-                Source code
+                Agent Portal
               </a>
             </div>
           </motion.div>
