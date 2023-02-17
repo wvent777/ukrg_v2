@@ -38,7 +38,7 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full pl-12 pb-2 ">
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/buy"
+              href="buy"
               aria-label="Buy"
             >
               Buy
