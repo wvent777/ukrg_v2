@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/dashboard.jpg";
 import stock5 from "../assets/images/stock5.jpg";
 
 export const Hero = () => {

@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
-import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
 import stock5 from "../assets/images/stock5.jpeg";
 
 export const FeaturesDiagonal = () => {
