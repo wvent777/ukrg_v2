@@ -7,10 +7,10 @@ import stock4 from "../assets/images/stock4.jpg";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-export const Features1 = () => {
+export const About = () => {
   return (
     <section
-      className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
+      className="w-full bg-customLight1 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
       id="about"
     >
       <motion.div
@@ -37,7 +37,7 @@ export const Features1 = () => {
               <h3 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-title">
                 Our Values
               </h3>
-              <ul className="mb-6 text-white">
+              <ul className="mb-6 text-black">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
                   <span>Honesty</span>

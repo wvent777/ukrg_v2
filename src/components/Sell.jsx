@@ -4,11 +4,11 @@ import { useState } from "react";
 import { InvitationModal } from "./InvitationModal";
 import stock5 from "../assets/images/stock5.jpeg";
 
-export const FeaturesDiagonal = () => {
+export const Sell = () => {
   const [isModalOpen, setIsModalOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1">
+    <section className=" w-full flex flex-col justify-center items-center bg-customLightBg1">
       <div className="custom-shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
@@ -19,7 +19,7 @@ export const FeaturesDiagonal = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-dark1"
+            className="custom-bg-light1"
           ></path>
         </svg>
       </div>
@@ -29,7 +29,7 @@ export const FeaturesDiagonal = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
+        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customLightBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="custom-block-subtitle">
               Looking to sell?
@@ -70,7 +70,7 @@ export const FeaturesDiagonal = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-dark1"
+            className="custom-bg-light1"
           ></path>
         </svg>
       </div>

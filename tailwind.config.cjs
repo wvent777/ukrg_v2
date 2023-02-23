@@ -18,6 +18,7 @@ module.exports = {
         customDarkBgTransparent: "rgb(31, 32, 35, 0.7)",
         customDarkBgTransparentDarker: "rgb(0,0,0,0.5)",
         customDarkBgTransparentLighter: "rgb(48, 49, 54, 0.7)",
+        customLightBg1: "rgb(251,255,241)",
       },
       fontFamily: {
         Inter: "Inter",

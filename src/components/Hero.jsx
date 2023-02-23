@@ -9,7 +9,7 @@ export const Hero = () => {
 
   return (
     <section
-      className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
+      className="w-screen  flex justify-center items-center bg-customLightBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
       id="home"
     >
       <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-10 md:pt-12 lg:pt-16 text-center">
@@ -27,7 +27,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
+          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-black  px-8 sm:px-8 md:px-20 lg:px-4">
             <span className="inline md:hidden">A Tradition of Trust</span>{" "}
             <span className="hidden md:inline">A Tradition of Trust</span>
           </div>
@@ -54,7 +54,7 @@ export const Hero = () => {
               Browse
             </div>
             <div
-              className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
+              className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customSecondary transition"
               onClick={() => setIsModalOpen(true)}
             >
               Contact Us

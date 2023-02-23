@@ -6,6 +6,7 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
+
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +19,7 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <a className="navbar-link" href="/" aria-label="Home">
+          <a className="navbar-link" href="" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
                 <UKLogo />
@@ -38,42 +39,42 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full pl-12 pb-2 ">
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/buy"
+              href="#buy"
               aria-label="Buy"
             >
               Buy
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/rent"
+              href="#rent"
               aria-label="Rent"
             >
               Rent
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/sell"
+              href="sell"
               aria-label="Sell"
             >
               Sell
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/#about"
+              href="#about"
               aria-label="About"
             >
               About Us
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/agents"
+              href="#agents"
               aria-label="Agents"
             >
               Agents
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/#feedback"
+              href="#feedback"
               aria-label="Feedback"
             >
               Feedback

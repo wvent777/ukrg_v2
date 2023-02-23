@@ -1,10 +1,10 @@
 /* Typography */
 
 .custom-block-title {
-  @apply text-white text-3xl font-bold tracking-normal;
+  @apply text-black text-3xl font-bold tracking-normal;
 }
 .custom-block-big-title {
-  @apply text-white text-4xl xl:text-5xl font-bold tracking-normal;
+  @apply text-black text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .custom-block-subtitle {
   @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
@@ -30,9 +30,12 @@
 .custom-bg-dark3 {
   @apply bg-customDarkBg3  fill-customDarkBg3;
 }
+.custom-bg-light1 {
+  @apply bg-customLightBg1 fill-customLightBg1
+}
 body,
 html {
-  @apply bg-customDarkBg2;
+  @apply bg-customLightBg1;
 }
 
 /* Borders */

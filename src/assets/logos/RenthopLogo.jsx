@@ -1,9 +1,8 @@
-export const rebnyLogo = () => (
+export const RenthopLogo = () => (
     <img
       width="120"
       height="120"
-      viewBox="0 0 24 24"
-      src = "../rebny_gray.png"
+      src = "src/assets/images/renthop.png"
       className="fill-customPrimary"
     >
     </img>
