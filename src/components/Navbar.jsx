@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { UKLogo } from "../assets/logos/UkLogo";
+import { UkLogo } from "../assets/logos/UkLogo";
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
@@ -21,7 +21,7 @@ export const Navbar = () => {
           <a className="navbar-link" href="" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white mr-2 text-6xl">
-                <UKLogo />
+                <UkLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
                 Ukpasia
@@ -129,7 +129,7 @@ export const Navbar = () => {
             >
               <a
                 className="navbar-link hover:text-customSecondary"
-                href="#buy"
+                href="buy"
                 onClick={() => setIsOpen(false)}
                 aria-label="Buy"
               >
@@ -137,7 +137,7 @@ export const Navbar = () => {
               </a>
               <a
                 className="navbar-link hover:text-customSecondary"
-                href="#rent"
+                href="rent"
                 onClick={() => setIsOpen(false)}
                 aria-label="Rent"
               >
@@ -145,7 +145,7 @@ export const Navbar = () => {
               </a>
               <a
                 className="navbar-link hover:text-customSecondary"
-                href="#sell"
+                href="sell"
                 onClick={() => setIsOpen(false)}
                 aria-label="Sell"
               >

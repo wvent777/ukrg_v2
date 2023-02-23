@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-
 import { InvitationModal } from "./InvitationModal";
 import stock5 from "../assets/images/stock5.jpg";
 
