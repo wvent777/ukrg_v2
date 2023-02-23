@@ -10,7 +10,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 export const HeaderInfo = ({ info }) => {
   return (
     <section
-      className="w-full bg-customLightBg1 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
+      className="w-full bg-white mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
       id="about"
     >
       <motion.div
@@ -22,12 +22,12 @@ export const HeaderInfo = ({ info }) => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">{ info.title }</span>
+              <span className="custom-block-subtitle">{info.title}</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                { info.aboutTitle }
+                {info.aboutTitle}
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                { info.about }
+                {info.about}
               </p>
             </div>
           </div>

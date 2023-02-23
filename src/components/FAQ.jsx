@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export const FAQ = () => (
-  <section className="relative pt-16 pb-16 bg-customLight1 overflow-hidden">
+  <section className="relative pt-16 pb-16 bg-white overflow-hidden">
     <div className="absolute -top-10" id="FAQ" />
     <motion.div
       initial={{ opacity: 0 }}

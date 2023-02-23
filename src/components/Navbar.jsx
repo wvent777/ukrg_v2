@@ -6,7 +6,6 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -39,14 +38,14 @@ export const Navbar = () => {
           <div className="hidden lg:flex h-full pl-12 pb-2 ">
             <a
               className="navbar-link hover:text-customPrimary"
-              href="#buy"
+              href="buy"
               aria-label="Buy"
             >
               Buy
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="#rent"
+              href="rent"
               aria-label="Rent"
             >
               Rent
@@ -81,7 +80,7 @@ export const Navbar = () => {
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="/#FAQ"
+              href="#FAQ"
               aria-label="FAQ"
             >
               FAQ

@@ -7,7 +7,7 @@
   @apply text-black text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .custom-block-subtitle {
-  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+  @apply text-base text-customSecondary  tracking-wider font-bold uppercase;
 }
 .custom-content-title {
   @apply text-white text-lg font-bold tracking-normal;
@@ -31,11 +31,14 @@
   @apply bg-customDarkBg3  fill-customDarkBg3;
 }
 .custom-bg-light1 {
-  @apply bg-customLightBg1 fill-customLightBg1
+  @apply bg-customLightBg1 fill-customLightBg1;
+}
+.custom-bg-white {
+  @apply bg-white fill-white;
 }
 body,
 html {
-  @apply bg-customLightBg1;
+  @apply bg-white;
 }
 
 /* Borders */

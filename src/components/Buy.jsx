@@ -8,7 +8,7 @@ export const Buy = () => {
   const [isModalOpen, setIsModalOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-customLightBg1">
+    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-white">
       <div className="custom-shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
@@ -19,7 +19,7 @@ export const Buy = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-light1"
+            className="custom-bg-white"
           ></path>
         </svg>
       </div>
@@ -29,8 +29,7 @@ export const Buy = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customLightBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
-          
+        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-white pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
             <img
               src={stock5}
@@ -70,7 +69,7 @@ export const Buy = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-light1"
+            className="custom-bg-white"
           ></path>
         </svg>
       </div>

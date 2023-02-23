@@ -8,7 +8,7 @@ export const Sell = () => {
   const [isModalOpen, setIsModalOpen, setIsOpen] = useState(false);
 
   return (
-    <section className=" w-full flex flex-col justify-center items-center bg-customLightBg1">
+    <section className=" w-full flex flex-col justify-center items-center bg-white">
       <div className="custom-shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
@@ -19,7 +19,7 @@ export const Sell = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-light1"
+            className="custom-bg-white"
           ></path>
         </svg>
       </div>
@@ -29,11 +29,9 @@ export const Sell = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customLightBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
+        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-white pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
-            <span className="custom-block-subtitle">
-              Looking to sell?
-            </span>
+            <span className="custom-block-subtitle">Looking to sell?</span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
               Sell your home with Ukpasia.
             </h2>
@@ -55,7 +53,6 @@ export const Sell = () => {
               className="rounded-xl  custom-border-gray"
               height="65%"
               width="auto"
-
             />
           </div>
         </div>
@@ -70,7 +67,7 @@ export const Sell = () => {
         >
           <path
             d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-            className="custom-bg-light1"
+            className="custom-bg-white"
           ></path>
         </svg>
       </div>

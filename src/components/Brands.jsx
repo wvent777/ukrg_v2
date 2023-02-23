@@ -10,9 +10,8 @@ import { RenthopLogo } from "../assets/logos/RenthopLogo";
 import { RealtymxLogo } from "../assets/logos/RealtymxLogo";
 import { RebnyLogo } from "../assets/logos/RebnyLogo";
 
-
 export const Brands = () => (
-  <section className="py-12 sm:py-24 bg-customLightBg1 w-full mt-16 mb-16">
+  <section className="py-12 sm:py-24 bg-white w-full mt-16 mb-16">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -34,13 +33,13 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                < RebnyLogo/>
+                <RebnyLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                < RenthopLogo />
+                <RenthopLogo />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                < RealtymxLogo />
+                <RealtymxLogo />
               </div>
             </div>
           </div>
