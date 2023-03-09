@@ -1,9 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Hero } from "../components/Hero.jsx";
 import { Navbar } from "../components/Navbar.jsx";
-import { FAQ } from "../components/FAQ.jsx";
-import { Brands } from "../components/Brands.jsx";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer.jsx";
 import { HeaderInfo } from "../components/HeaderInfo";
@@ -14,16 +11,16 @@ import "../styles/FeaturesDiagonal.styles.css";
 import { ScrollUpButton } from "../components/ScrollUpButton";
 
 const sell = {
-  title: 'Sell',
-  aboutTitle: 'Info on selling',
-  about: 'About...',
-}
-
+  title: "Sell",
+  aboutTitle: "Info on selling",
+  about: "About...",
+};
 ---
+
 <Layout title="Ukpasia">
   <Navbar client:load />
-  <Divider /> 
+  <Divider />
   <HeaderInfo client:load info={sell} />
-  <Footer /> 
-  <ScrollUpButton  client:load />
+  <Footer />
+  <ScrollUpButton client:load />
 </Layout>

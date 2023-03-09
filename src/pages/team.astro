@@ -10,18 +10,19 @@ import "../styles/Hero.styles.css";
 import "../styles/Utils.styles.css";
 import "../styles/FeaturesDiagonal.styles.css";
 import { ScrollUpButton } from "../components/ScrollUpButton";
+import { Team } from "../components/Team";
 
-const agents = {
-  title: 'Agents',
-  aboutTitle: 'Info on agents',
-  about: 'About...',
-}
-
+const team = {
+  title: "team",
+  aboutTitle: "Info about team",
+  about: "About...",
+};
 ---
+
 <Layout title="Ukpasia">
   <Navbar client:load />
-  <Divider /> 
-  <HeaderInfo client:load info={agents} />
-  <Footer /> 
-  <ScrollUpButton  client:load />
+  <Divider />
+  <Team client:load info={team} />
+  <Footer />
+  <ScrollUpButton client:load />
 </Layout>

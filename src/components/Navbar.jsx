@@ -23,9 +23,6 @@ export const Navbar = () => {
               <div className="text-white mr-2 text-6xl">
                 <UkLogo />
               </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
-                Ukpasia
-              </div>
             </div>
           </a>
         </motion.div>
@@ -66,10 +63,10 @@ export const Navbar = () => {
             </a>
             <a
               className="navbar-link hover:text-customPrimary"
-              href="#agents"
-              aria-label="Agents"
+              href="team"
+              aria-label="Team"
             >
-              Agents
+              Team
             </a>
             <a
               className="navbar-link hover:text-customPrimary"

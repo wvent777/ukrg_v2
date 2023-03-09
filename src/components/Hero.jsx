@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
-import stock5 from "../assets/images/stock5.jpg";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,7 +16,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
+          <div className="text-customSecondary text-2xl sm:text-4xl  mb-6 sm:mt-32 mt-16  font-bold">
             Ukpasia Realty Group
           </div>
         </motion.div>
